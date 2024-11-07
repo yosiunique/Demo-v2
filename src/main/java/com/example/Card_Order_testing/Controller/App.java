@@ -23,7 +23,7 @@ public class App {
     }
 
     @PostMapping("/post")
-public String save(@ModelAttribute("login") Account account){
+public String save(@ModelAttribute("add") Account account){
 
     appService.save(account);
 
